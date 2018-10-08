@@ -11,11 +11,32 @@ Domain Path: /languages/
 
 
 
-/*
-Sample : remove the comment and start adding your own custom CSS rules.
-
-body {
-	background-color:#fff;
+.sfm-logo{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background:#ffffff;
+	vertical-align: top;
+	top: 0px;
 }
 
-*/
+.mk-ornamental-title .title span::before{
+	border-top: 0 !important; 
+}
+
+.mk-ornamental-title .title-text{
+	padding: 5px 10px !important;
+}
+
+.text-white{
+	color: #FFFFFF !important;
+}
+
+/* SIDEBAR MENU APPENA SOTTO IL LOADING */
+.#sfm-sidebar{
+	z-index: 99999;
+}
+.sfm-overlay-wrapper{
+	z-index: 9999999;
+}
