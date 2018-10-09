@@ -374,7 +374,7 @@ var _T = {
                             $newMenu.prependTo('.sfm-nav .sfm-va-middle').show();
 
                             if (menuOpts.search === 'show') {
-                                $('.sfm-va-middle').append('<form role="search" method="get" class="sfm-search-form" action="' + opts.siteBase + '"><input type="text" class="search-field" placeholder="" value="" name="s"><span></span><input type="submit" class="search-submit" value="Search"></form>');
+                                $('.sfm-va-middle').prepend('<form role="search" method="get" class="sfm-search-form" action="' + opts.siteBase + '"><input type="text" class="search-field" placeholder="" value="" name="s"><span></span><input type="submit" class="search-submit" value="Search"></form>');
                             }
                             $cont = $("." + pre + "-nav");
 
