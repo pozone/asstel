@@ -52,8 +52,26 @@ Domain Path: /languages/
 	border-radius: 50px;
 	margin: 0 5%;
 	width: 90%;
+	margin-bottom: 20px;
 }
 #sfm-sidebar .sfm-search-form span {
     top: 7px !important;
     color: #fbba00;
+}
+
+/* STILE DELL'ACCORDION IN HOMEPAGE */
+.home.page .mk-accordion-tab{
+	color: #395787 !important;
+	border: 0px;
+	/*text-align: center; */
+	font-size: 16px;
+}
+.home.page .mk-accordion-pane a{
+	color: #395787 !important;
+}
+.vc_btn3-container  .vc_btn3{
+	background-color: #fbba00 !important;
+}
+.home.page .mk-accordion-tab .mk-svg-icon{
+	display: none;
 }

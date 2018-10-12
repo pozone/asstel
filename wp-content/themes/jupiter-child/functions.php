@@ -7,4 +7,12 @@ function load_custom_js() {
 }
 add_action( 'wp_enqueue_scripts', 'load_custom_js' );
 
+
+function menu_mobile_only(){
+  	if( !wp_is_mobile() ){
+		wp_enqueue_style( 'menu_mobile', get_stylesheet_directory_uri().'/css/menu_mobile.css'); 
+	}
+}
+add_action( 'wp_enqueue_scripts', 'menu_mobile_only');
+
 ?>
