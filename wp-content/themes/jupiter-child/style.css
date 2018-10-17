@@ -31,6 +31,17 @@ Domain Path: /languages/
 .text-white{
 	color: #FFFFFF !important;
 }
+h2.title:hover{
+	background-color: #fbba00;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.news-single-categories{
+	color: #fbba00;
+}
+
 
 /* SIDEBAR MENU APPENA SOTTO IL LOADING */
 /* NON RISOLTO!!! */
@@ -74,4 +85,94 @@ Domain Path: /languages/
 }
 .home.page .mk-accordion-tab .mk-svg-icon{
 	display: none;
+}
+
+
+/* stile del menu sidebar */
+#sfm-sidebar .sfm-menu-level-0 a::before, 
+#sfm-sidebar .sfm-menu-level-0 .sfm-active-smooth a::before{
+	background-color: #fbba00 !important;
+}
+#sfm-sidebar .sfm-menu-level-1 a::before, 
+#sfm-sidebar .sfm-menu-level-1 .sfm-active-smooth a::before{
+	background-color: #395787 !important;
+}
+.sfm-menu-item-331 a{
+	color: #fbba00 !important;
+}
+#sfm-sidebar .sfm-menu-level-0 .sfm-active-class > a, 
+#sfm-sidebar .sfm-menu-level-0 .sfm-active-smooth > a,
+#sfm-sidebar .sfm-menu-level-0 .sfm-active-class > a .sfm-sm-indicator i,
+#sfm-sidebar .sfm-menu-level-0 .sfm-active-class > a .la_icon{
+	color: #fbba00 !important;
+}
+#sfm-sidebar .sfm-menu-level-0 li > a:hover,
+#sfm-sidebar .sfm-menu-level-0 li > a:hover .sfm-sm-indicator i,
+#sfm-sidebar .sfm-menu-level-0 li > a:hover .la_icon,
+#sfm-sidebar .sfm-menu-level-0 .sfm-has-child-menu.sfm-active-item > a .sfm-sm-indicator i,
+#sfm-sidebar .sfm-menu-level-0 .sfm-has-child-menu.sfm-active-item > a .la_icon,
+#sfm-sidebar .sfm-menu-level-0 .sfm-has-child-menu.sfm-active-item > a{
+	color: #395787 !important;
+}
+#sfm-sidebar .sfm-menu-level-1 li > a:hover,
+#sfm-sidebar .sfm-menu-level-1 li > a:hover .sfm-sm-indicator i,
+#sfm-sidebar .sfm-menu-level-1 li > a:hover .la_icon,
+#sfm-sidebar .sfm-menu-level-1 .sfm-has-child-menu.sfm-active-item > a .sfm-sm-indicator i,
+#sfm-sidebar .sfm-menu-level-1 .sfm-has-child-menu.sfm-active-item > a .la_icon,
+#sfm-sidebar .sfm-menu-level-1 .sfm-has-child-menu.sfm-active-item > a{
+
+	color: #FFFFFF !important;
+}
+#sfm-sidebar .sfm-menu-level-1 li > a{
+	color: #fbba00 !important;
+}
+/*.sfm-pos-left #sfm-sidebar .sfm-view-level-1*/
+#sfm-sidebar .sfm-view-level-1{
+	width: 600px !important;
+}
+
+/* STILE DELLE NEWS IN EVIDENZA IN HOMEPAGE */
+/*.custom_asstel_news .vc_grid-item .vc_grid-item-mini {
+	border: 1px solid #395787;
+}
+.custom_asstel_news .vc_gitem-zone-mini .vc_gitem_row {
+	background: #ffffff; 
+}*/
+.custom_asstel_news h4,
+.custom_asstel_news .vc_gitem-post-data-source-post_title{
+	margin-bottom: 0px !important;
+}
+.asstel_grid_categories{
+	text-align: left !important;
+	text-transform: uppercase;
+	color: #fbba00;
+	font-weight: 600;
+	font-size: 14px;
+}
+.asstel_grid_categories:before{
+	content: ">";
+	margin-right: 10px;
+	display: inline-block;
+}
+
+
+/* STILE DEL FORM CONTATTI */
+.asstel_form_contatti .s_txt-input{
+	border-color: #fbba00 !important;
+	box-shadow: none !important;
+}
+.asstel_form_contatti .mk-form-row.half .s_txt-input{
+	margin: 5px !important; 
+	width: calc(100% - 10px) !important
+}
+.asstel_form_contatti .mk-form-row .s_txt-input,
+.asstel_form_contatti .mk-progress-button{
+	margin: 5px !important; 
+	width: calc(100% - 12.5px) !important
+}
+.asstel_form_contatti .mk-progress-button{
+	background-color: #fbba00 !important;
+	color: #395787 !important;
+	border-color: #fbba00 !important;
+	box-shadow: none !important;
 }

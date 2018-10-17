@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?b0cvlp');
+  src:  url('fonts/icomoon.eot?b0cvlp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?b0cvlp') format('truetype'),
+    url('fonts/icomoon.woff?b0cvlp') format('woff'),
+    url('fonts/icomoon.svg?b0cvlp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="laae1318678b26194ad8e86e1ff3a7483f-"], [class*=" laae1318678b26194ad8e86e1ff3a7483f-"] {
+  
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.laae1318678b26194ad8e86e1ff3a7483f-icon_asstel_attivita:before {
+  content: "\e900";
+}
+.laae1318678b26194ad8e86e1ff3a7483f-icon_asstel_contatti:before {
+  content: "\e901";
+}
+.laae1318678b26194ad8e86e1ff3a7483f-icon_asstel_eventi:before {
+  content: "\e902";
+}
+.laae1318678b26194ad8e86e1ff3a7483f-icon_asstel_galleria:before {
+  content: "\e903";
+}
+.laae1318678b26194ad8e86e1ff3a7483f-icon_asstel_home:before {
+  content: "\e904";
+}
+.laae1318678b26194ad8e86e1ff3a7483f-icon_asstel_login:before {
+  content: "\e905";
+}
+.laae1318678b26194ad8e86e1ff3a7483f-icon_asstel_news:before {
+  content: "\e906";
+}
+.laae1318678b26194ad8e86e1ff3a7483f-icon_asstel_salastampa:before {
+  content: "\e907";
+}
