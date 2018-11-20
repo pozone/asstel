@@ -31,3 +31,20 @@ if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
     </div>
 
 <?php endwhile; ?>
+
+<?php /* INIZIO */ ?>
+<div class="accordion_footer" itemprop="mainEntityOfPage">
+    <div class="accordion_footer_content">
+        <?php
+
+
+        $post_id = 445; // example post id 
+        $post_content = get_post($post_id);
+        $content = $post_content->post_content;
+        echo do_shortcode( $content );//executing shortcodes
+
+
+        ?>
+    </div>
+    </div>
+<?php /* fine */ ?>

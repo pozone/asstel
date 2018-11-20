@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+	.vc_grid.vc_row .vc_grid-item{
+		padding-right: 0px !important;
+	}
+	.vc_grid.vc_row.vc_grid-gutter-30px .vc_pageable-slide-wrapper{
+		margin-right: 0px !important; 
+	}
+}

@@ -1,0 +1,70 @@
+/*  per il bug degli elementi che vanno sotto al menu sidebar */
+/* layerslider fullwidth */
+.ls-wp-container.ls-fullwidth{
+	padding-left: 275px !important;
+}
+.ls-wp-container.ls-fullwidth .ls-nav-prev{
+	margin-left: 275px !important;
+}
+/* google map fullwidth */
+.master-holder .theme-page-wrapper:not(.full-width-layout) .mk-fullwidth-true.vc_row{
+  padding-left: 275px !important;
+}
+
+/* funzione per nascondere il menu del template nella versione desktop.
+ nella versione mobile si vedrà solo il menu SUPERFLY MENU */
+.mk-header-holder{
+	display:none;
+}
+.mk-header-padding-wrapper{
+	display:none;
+}
+
+/* STILE DELLE NEWS IN EVIDENZA IN HOMEPAGE */
+.custom_asstel_news .vc_grid .vc_pageable-slide-wrapper{
+	display: flex;
+}
+
+
+
+/* RIPOSIZIONAMENTO FOOTER */
+/*html {
+    height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  position: relative;
+  min-height: 100%;
+}
+#theme-page {
+  margin: 0 auto;
+}
+#mk-footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+}*/
+
+/*#mk-boxed-layout{
+	min-height:100% !important;
+	position: relative !important;
+}
+#mk-theme-container{
+	height: 100% !important;
+	min-height: 100% !important;
+	position: relative !important;
+}
+#theme-page{
+	padding-bottom:60px !important;
+}
+#mk-footer {
+   position:absolute !important;
+   bottom:0 !important;
+   width:100% !important;
+   min-height:60px !important;   
+   z-index: 22 !important;
+}*/

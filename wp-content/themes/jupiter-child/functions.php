@@ -7,14 +7,15 @@ function load_custom_js() {
 }
 add_action( 'wp_enqueue_scripts', 'load_custom_js' );
 
-// funzione per nascondere il menu del template nella versione desktop.
-// nella versione mobile si vedrà solo il menu SUPERFLY MENU
-function menu_mobile_only(){
-  	if( !wp_is_mobile() ){
-		wp_enqueue_style( 'menu_mobile', get_stylesheet_directory_uri().'/css/menu_mobile.css'); 
+// FUNZIONE PER CARICARE UN CSS SOLO PER MOBILE E UNO SOLO PER DESKTOP
+function css_mobile_desktop(){
+  	if( wp_is_mobile() ){
+		wp_enqueue_style( 'css_mobile', get_stylesheet_directory_uri().'/css/css_mobile.css'); 
+	}else{
+		wp_enqueue_style( 'css_desktop', get_stylesheet_directory_uri().'/css/css_desktop.css'); 
 	}
 }
-add_action( 'wp_enqueue_scripts', 'menu_mobile_only');
+add_action( 'wp_enqueue_scripts', 'css_mobile_desktop');
 
 
 /* PER AGGIUNGERE/SOSTITUIRE UNA CLASSE A QUELLA DEL MIMETYPE LINK ICON PLUGIN */
@@ -25,5 +26,14 @@ function my_classnameFunction( $classnames_string ) {
 	}
 }
 //add_filter( 'mtli_classnames', 'my_classnameFunction' );
+
+
+/* PLACEHOLDER DEL SEARCH */
+function asstel_search_form( $html ) {
+        $html = str_replace( 'placeholder="', 'placeholder="Scrivi e cerca', $html );
+        return $html;
+}
+//add_filter( 'get_search_form', 'asstel_search_form' );
+
 
 ?>
